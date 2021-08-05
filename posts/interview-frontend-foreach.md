@@ -26,7 +26,7 @@ He asked why I was looping over with a foreach and pushing to an array rather th
 The next day I watched a great video just to refresh my mind a bit on what it means to think more functionally.
 
 \
-[JSConf YouTube video on functional programming](https://img.youtube.com/vi/e-5obm1G_FY/0.jpg)
+[JSConf YouTube video on functional programming](https://www.youtube.com/watch?v=e-5obm1G_FY)
 
 \
 I was inspired and looked through some production code at work -- refactoring similar instances with slick Map and Filter array methods. The code immediately read so much cleaner.

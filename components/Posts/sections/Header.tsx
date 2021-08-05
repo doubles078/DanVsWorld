@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import { Date } from '../../../components';
+import { Date } from '../..';
 import { IPost } from '../../../models';
 
 type PostProps = {
