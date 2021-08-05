@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from '../../components';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import { IPost } from '../../models';
-import { Header } from './sections';
+import { Header } from '../../components/Posts/sections';
 
 type PostProps = {
   postData: IPost;

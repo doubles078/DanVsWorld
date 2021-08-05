@@ -6,3 +6,4 @@ export * from './Navbar';
 export * from './Layout';
 export * from './Logo';
 export * from './PostList';
+export * from './Posts/sections';
