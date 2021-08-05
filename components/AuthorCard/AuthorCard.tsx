@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { GoodReads, LinkedIn, Twitter } from '../Icons';
 import { Github } from '../Icons/Github';
 
@@ -10,9 +9,8 @@ const DESCRIPTION_MESSAGE =
 export const AuthorCard = () => {
   return (
     <div className="AuthorCard">
-      <Image
+      <img
         className="AuthorCard__avatar"
-        priority
         src="/images/avatar.jpg"
         height={144}
         width={144}
