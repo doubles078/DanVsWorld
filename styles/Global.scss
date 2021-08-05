@@ -1,0 +1,151 @@
+@import './Fonts.scss';
+@import './Variables.scss';
+
+:root {
+  --baseFont: 16px;
+  --maxContentWidth: 680px;
+  --wrappingMargin: 1rem 4rem;
+  --mobileWrappingMargin: 1rem 2rem;
+}
+
+// light-theme.css
+html[data-theme='light'] {
+  --white: #ffffff;
+  --gray: #ccc;
+  --fontColor: rgb(51, 51, 51);
+  --backgroundColor: #faf9f5;
+  --secondaryBackgroundColor: #f5fbef;
+  --secondaryColor: #3777ff;
+  --highlightColor: #ffb5c2;
+  --funColor: #ffe9ce;
+  --secondaryFunColor: #ffe156;
+}
+
+// dark-theme.css
+html[data-theme='dark'] {
+  --white: #f5fbef;
+  --gray: #ccc;
+  --backgroundColor: #0e2439;
+  --secondaryBackgroundColor: #453a50;
+  --fontColor: #ffffff;
+  --secondaryColor: #9180a3;
+  --highlightColor: #0075a2;
+  --funColor: #00ffc5;
+  --secondaryFunColor: #adf5ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  color: var(--fontColor);
+  background-color: var(--backgroundColor);
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  font-size: var(--baseFont);
+  margin: var(--wrappingMargin);
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 -0.75rem 0 var(--highlightColor);
+  color: inherit;
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:focus,
+  &:active,
+  &:hover {
+    box-shadow: inset 0 -2rem 0 var(--highlightColor);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'AlfaSlabOne', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+p {
+  line-height: 1.75;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: $bp-md) {
+  html,
+  body {
+    margin: var(--mobileWrappingMargin);
+  }
+}
+
+// Pages
+.Home {
+  &__posts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr {
+    max-width: 6rem;
+  }
+}
+
+.Error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
+
+  svg {
+    width: 200px;
+  }
+
+  p {
+    margin: 0.5rem 0 2rem 0;
+  }
+
+  h1 {
+    margin-top: 2rem;
+  }
+}
+
+// Utility
+
+.Button {
+  background-color: var(--highlightColor);
+  color: var(--fontColor);
+  border: none;
+  border-radius: 3px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.PlainLink {
+  box-shadow: none;
+}

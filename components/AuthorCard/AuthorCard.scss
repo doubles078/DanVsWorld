@@ -1,0 +1,33 @@
+.AuthorCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h1,
+  p {
+    margin: 0;
+  }
+
+  &__avatar {
+    clip-path: circle(72px at center);
+  }
+
+  &__social {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0.25rem 0.5rem;
+      a {
+        box-shadow: none;
+
+        svg {
+          fill: var(--fontColor);
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

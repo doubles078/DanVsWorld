@@ -1,0 +1,67 @@
+@import '../../styles/Variables.scss';
+
+.Logo {
+  margin: 2rem 0rem;
+  width: 50%;
+
+  #main {
+    path {
+      animation: line-animation 2s ease forwards;
+      stroke-linecap: square;
+      stroke: var(--fontColor);
+
+      &:nth-child(1) {
+        stroke-dasharray: 316;
+        stroke-dashoffset: 316;
+      }
+      &:nth-child(2) {
+        stroke-dasharray: 359;
+        stroke-dashoffset: 359;
+      }
+      &:nth-child(3) {
+        stroke-dasharray: 607;
+        stroke-dashoffset: 607;
+      }
+      &:nth-child(4) {
+        stroke-dasharray: 439;
+        stroke-dashoffset: 439;
+      }
+      &:nth-child(5) {
+        stroke-dasharray: 535;
+        stroke-dashoffset: 535;
+      }
+      &:nth-child(6) {
+        stroke-dasharray: 800;
+        stroke-dashoffset: 800;
+      }
+      &:nth-child(7) {
+        stroke-dasharray: 305;
+        stroke-dashoffset: 305;
+      }
+      &:nth-child(8) {
+        stroke-dasharray: 420;
+        stroke-dashoffset: 420;
+      }
+      &:nth-child(9) {
+        stroke-dasharray: 330;
+        stroke-dashoffset: 330;
+      }
+      &:nth-child(10) {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 320;
+      }
+    }
+  }
+}
+
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (max-width: $bp-lg) {
+  .Logo {
+    width: 100%;
+  }
+}

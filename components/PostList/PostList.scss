@@ -1,0 +1,14 @@
+.PostList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0 0;
+  max-width: var(--maxContentWidth);
+
+  &__post {
+    margin-bottom: 3rem;
+  }
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

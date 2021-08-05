@@ -1,0 +1,42 @@
+.Post {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__header {
+    max-width: var(--maxContentWidth);
+    width: 100%;
+    h3 {
+      opacity: 0.6;
+      font-family: 'Open Sans';
+      font-weight: bold;
+    }
+
+    &__meta {
+      div {
+        border-top: 5px dotted var(--highlightColor);
+        border-bottom: 5px dotted var(--highlightColor);
+        margin: 1rem 0;
+        padding: 0.25rem 0;
+      }
+    }
+  }
+
+  &__body {
+    max-width: var(--maxContentWidth);
+    width: 100%;
+
+    img {
+      margin: 1.5rem 0;
+      width: 100%;
+    }
+
+    pre {
+      margin: 1.5rem 0;
+      white-space: pre-wrap;
+      word-wrap: break-word; //internet explorer
+    }
+  }
+}
