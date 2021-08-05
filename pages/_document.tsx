@@ -9,7 +9,7 @@ import Document, {
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="en" data-theme="light">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
