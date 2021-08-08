@@ -2,7 +2,7 @@
 title: 'Frontend Interview Retrospective'
 subtitle: 'Working to be more functional'
 tag: 'tech 🤖'
-date: '2020-01-02'
+date: '2021-08-01'
 ---
 
 ![A random picture of a computer screen with code on it](/images/posts/interview-frontend-foreach/optimized-coding.jpg 'Computer screen with code on it')
