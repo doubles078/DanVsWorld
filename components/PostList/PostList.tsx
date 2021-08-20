@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Date } from '../../components';
-import { getSortedPostsData } from '../../lib/posts';
 import { IPost } from '../../models';
 
 type PostList = {

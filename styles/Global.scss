@@ -2,7 +2,7 @@
 @import './Variables.scss';
 
 :root {
-  --baseFont: 16px;
+  --baseFont: 18px;
   --maxContentWidth: 680px;
   --wrappingMargin: 1rem 4rem;
   --mobileWrappingMargin: 1rem 2rem;
@@ -79,8 +79,14 @@ h4 {
     'Helvetica Neue', sans-serif;
 }
 
+blockquote {
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 p {
-  line-height: 1.75;
+  line-height: 2;
 }
 
 footer {

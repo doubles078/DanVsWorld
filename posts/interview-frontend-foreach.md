@@ -9,7 +9,7 @@ date: '2021-08-01'
 
 One of my goals in becoming a better developer is trying to think more functionally. Recently, I did a take home challenge for a new software engineering role as a mostly frontend dev. One of the interviewers asked me why I wrote the following piece of code and how I could have been more functional with it.
 
-```javascript
+```jsx
 let arrayOfUsersFreeTimes = [];
 
 // create an array of all user free times

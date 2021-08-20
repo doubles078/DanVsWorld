@@ -1,15 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import remark from 'remark';
-import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
 export function getSortedPostsData() {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
+  const allPostsData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '');
 
@@ -30,11 +28,11 @@ export function getSortedPostsData() {
   return allPostsData.sort(({ date: a }: any, { date: b }: any) => {
     if (a < b) {
       return 1;
-    } else if (a > b) {
-      return -1;
-    } else {
-      return 0;
     }
+    if (a > b) {
+      return -1;
+    }
+    return 0;
   });
 }
 
@@ -54,7 +52,7 @@ export function getAllPostIds() {
   //     }
   //   }
   // ]
-  return fileNames.map((fileName) => {
+  return fileNames.map(fileName => {
     return {
       params: {
         id: fileName.replace(/\.md$/, ''),
@@ -71,15 +69,16 @@ export async function getPostData(id: string) {
   const matterResult = matter(fileContents);
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+  // const processedContent = await remark()
+  //   .use(html)
+  //   .process(matterResult.content);
+  // const content = matterResult.content.toString();
+  const content = matterResult.content;
 
   // Combine the data with the id and contentHtml
   return {
     id,
-    contentHtml,
+    content,
     ...matterResult.data,
   };
 }

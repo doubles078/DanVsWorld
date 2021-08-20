@@ -4,5 +4,5 @@ export type IPost = {
   title: string;
   subtitle: string;
   tag: string;
-  contentHtml: string;
+  content: string;
 };
