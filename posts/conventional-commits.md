@@ -15,7 +15,6 @@ My mind immediately jumped to... "hey, I write commit messages in line with the 
 >
 > - Dan Donohue 2018 commit message
 
-\
 Yep, I needed work 😆. That's where conventional commits came in. Turns out, another dev received similar feedback as me, so, as a team, we did some research and turned to [Conventional Commits](https://www.conventionalcommits.org/): **a lightweight convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of.**
 
 \
