@@ -25,6 +25,7 @@ My most useful ever-present tabs are my '30 Ideas', 'YouTube Cookbook', 'Parent 
 A lot of my friends LOVE the approaches below. My favorite I have tried alongside the Master List was the Bullet Journal approach.
 
 - [Bullet Journal](https://bulletjournal.com/): A handwritten approach to organizing life
+- [Notion](https://www.notion.so/): Marketed for teams, a mix and match of a lot of the best parts from the tools below
 - [Evernote](https://evernote.com/): Great for mobile and desktop note taking
 - [Miro](https://miro.com/): Create digital 'whiteboards' and collaborations
 - [Trello](https://trello.com/en-US): Create To Do boards to manage projects and organize tasks
