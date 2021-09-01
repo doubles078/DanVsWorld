@@ -3,3 +3,10 @@
 # danvsworld
 
 My personal blog for software dev and other stuff
+
+## Run Locally
+
+```
+docker build . -t danvsworld
+docker run -p 3000:3000 danvsworld
+```
