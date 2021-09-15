@@ -45,7 +45,7 @@ label.addEventListener('mousedown', e => {
     clientY: e.clientY,
   };
 
-  canvas.dispatchEvent(new MouseEvent(event, options));
+  canvas.dispatchEvent(new MouseEvent('mousedown', options));
 });
 ```
 
