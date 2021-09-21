@@ -21,7 +21,7 @@ Drew had indeed passed a perfect specimen growing off of a dying tree stump in a
 
 ## ![Gif of chicken of the woods on a stump](/images/posts/first-foraged-chicken-of-the-woods/chickenofwoods.gif 'Gif of chicken of the woods on a stump')
 
-We brought the mushrooms back in a brown paper bag from our sandwiches, through them in the fridge, then divied them up later for each of us to try our own recipes. A few days later, we all had some, cooked in different ways. Not only did no one get sick ☠️, our biggest concern as a first time mushroom forage, but the mushroom tasted incredible. In fact, it was by far the best meat/chicken whatever substitute I have ever encountered. I made a chicken carbonara of sorts, while Drew made fried and sauteed for two different meals. Envious of the fried... I can't wait until I get another opportunity to harvest. Until next time 🐔🌳.
+We brought the mushrooms back in a brown paper bag from our sandwiches, threw them in the fridge, then divied them up later for each of us to try our own recipes. A few days later, we all had some, cooked in different ways. Not only did no one get sick ☠️, our biggest concern as a first time mushroom forage, but the mushroom tasted incredible. In fact, it was by far the best meat/chicken whatever substitute I have ever encountered. I made a chicken carbonara of sorts, while Drew made fried and sauteed for two different meals. Envious of the fried... I can't wait until I get another opportunity to harvest. Until next time 🐔🌳.
 
 ![Chopped up mushrooms](/images/posts/first-foraged-chicken-of-the-woods/chopped-up-chicken.jpg 'Chopped up mushrooms')
 
