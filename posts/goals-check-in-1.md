@@ -2,7 +2,7 @@
 title: 'Goals Check In 1'
 subtitle: 'The very first'
 tag: 'goals 🥅'
-date: '2022-02-22'
+date: '2022-01-22'
 ---
 
 I have begun each of the past 6 years by creating a PowerPoint of goals I hope to accomplish for the following year. I use the end of December and early January as a time to reflect on what I set out to do the past year and what I am looking to grow in for the next. This year, in the name of simpifying and making my goals as transparent as possible, I am trying something new. I am going to track my progress in [my Master List](https://www.danvsworld.com/posts/organizing-life-with-google-sheets), and do my best to write concise monthly blog updates on my progress.

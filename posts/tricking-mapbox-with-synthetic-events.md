@@ -1,5 +1,5 @@
 ---
-title: 'Tricking Mapbox with Synthetic Events'
+title: 'Tricking Mapbox with synthetic events'
 subtitle: 'Creating and dispatching custom DOM events'
 tag: 'tech 🤖'
 date: '2021-09-15'
