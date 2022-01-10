@@ -1,5 +1,5 @@
 ---
-title: 'Frontend Interview Retrospective'
+title: 'Frontend interview retrospective'
 subtitle: 'Working to be more functional'
 tag: 'tech 🤖'
 date: '2021-08-01'

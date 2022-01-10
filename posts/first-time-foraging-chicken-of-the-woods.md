@@ -1,5 +1,5 @@
 ---
-title: 'First Time Foraging Chicken of the Woods'
+title: 'Foraging Chicken of the Woods'
 subtitle: 'We ate it and did not die 🐔🌳'
 tag: 'life 🌴'
 date: '2021-09-21'
