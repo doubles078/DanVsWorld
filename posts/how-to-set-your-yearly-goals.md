@@ -1,6 +1,6 @@
 ---
 title: 'How to set your yearly goals'
-subtitle: 'Its not always that easy'
+subtitle: 'A framework for personal growth'
 tag: 'goals 🥅'
 date: '2022-01-12'
 ---
