@@ -1,5 +1,5 @@
 ---
-title: 'Goals Check In 1'
+title: 'Setting my 2022 goals'
 subtitle: 'The very first'
 tag: 'goals 🥅'
 date: '2022-01-02'
