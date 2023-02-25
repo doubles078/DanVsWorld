@@ -5,7 +5,7 @@
   --baseFont: 18px;
   --maxContentWidth: 680px;
   --wrappingMargin: 1rem 4rem;
-  --mobileWrappingMargin: 1rem 2rem;
+  --mobileWrappingMargin: 1rem;
 }
 
 // light-theme.css
@@ -38,7 +38,6 @@ html[data-theme='dark'] {
   box-sizing: border-box;
 }
 
-html,
 body {
   padding: 0;
   color: var(--fontColor);

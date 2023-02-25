@@ -1,5 +1,5 @@
 ---
-title: 'EF Tours China Trip 2013'
+title: 'EF Tours China Trip'
 subtitle: 'Chaperoning the Hopkinton High AP Chinese Trip'
 tag: 'travel 🌴'
 date: '2023-02-16'
