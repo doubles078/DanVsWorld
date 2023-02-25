@@ -4,7 +4,7 @@ import { Github } from '../Icons/Github';
 
 const WELCOME_MESSAGE = 'Welcome to my blog';
 const DESCRIPTION_MESSAGE =
-  'My name is Dan - I like to write about software development.';
+  'My name is Dan - this is my personal blog for software dev, travel and other stuff.';
 
 export const AuthorCard = () => {
   return (
