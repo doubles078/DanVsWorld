@@ -1,5 +1,5 @@
 ---
-title: 'Namibia and South Africa Trip'
+title: 'Namibia and South Africa'
 subtitle: 'Visiting my girlfriend (now wife) during her Peace Corps trip'
 tag: 'travel 🌴'
 date: '2023-02-17'

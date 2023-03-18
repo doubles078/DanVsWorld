@@ -1,5 +1,5 @@
 ---
-title: 'Vietnam Trip 2'
+title: 'Vietnam 2'
 subtitle: 'Phu Quoc or bust'
 tag: 'travel 🌴'
 date: '2023-02-26'
