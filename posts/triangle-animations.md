@@ -1,6 +1,6 @@
 ---
 title: 'Animating triangles'
-subtitle: 'A '
+subtitle: 'Playing around with svgs'
 tag: 'tech 🤖'
 date: '2023-10-19'
 ---
