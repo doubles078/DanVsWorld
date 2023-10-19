@@ -33,7 +33,7 @@ export const Layout = ({
           name="description"
           content="Dan Donohue's personal blog - software dev, Brazilian Jiu-Jitsu, cooking, and book reviews."
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={`${siteTitle}`} />
       </Head>
       <header>
         <Navbar />
@@ -44,9 +44,7 @@ export const Layout = ({
       <footer>
         {!home && (
           <div>
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
+            <Link href="/">← Back to home</Link>
           </div>
         )}
         <p>A personal blog 📕</p>

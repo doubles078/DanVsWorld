@@ -5,9 +5,7 @@ import { DarkToggle } from '../index';
 export const Navbar = () => {
   return (
     <nav className="Navbar">
-      <Link href="/">
-        <a>Home</a>
-      </Link>
+      <Link href="/">Home</Link>
       <DarkToggle />
     </nav>
   );
