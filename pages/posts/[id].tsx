@@ -6,6 +6,7 @@ import { Header } from '../../components/Posts/sections';
 import ReactMarkdown from 'react-markdown';
 import { PrismAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import rehypeRaw from 'rehype-raw';
 
 type PostProps = {
   postData: IPost;
@@ -18,15 +19,18 @@ export default function Post({ postData }: PostProps) {
 
       <ReactMarkdown
         className="Post__body"
+        rehypePlugins={[rehypeRaw]}
         components={{
           code({ className, children }) {
             const language = className?.replace('language-', '');
+
             return (
               <SyntaxHighlighter
                 style={vscDarkPlus}
                 language={language}
-                children={children[0]}
-              />
+              >
+                {children as string}
+              </SyntaxHighlighter>
             );
           },
         }}

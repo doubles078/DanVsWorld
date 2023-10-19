@@ -8,8 +8,8 @@ export default function Custom404() {
         <TreasureMap />
         <h1>404 - Page not found</h1>
         <p>Sorry there is no treasure here.</p>
-        <Link href="/">
-          <a className="Button">← Back to home</a>
+        <Link className="Button" href="/">
+          ← Back to home
         </Link>
       </div>
     </Layout>
