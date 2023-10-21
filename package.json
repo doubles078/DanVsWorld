@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@netlify/plugin-nextjs": "^4.41.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.23.0",
     "gray-matter": "^4.0.3",
